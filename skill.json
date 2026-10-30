@@ -1,0 +1,10 @@
+{
+  "name": "openclaw-genpark-video-creator",
+  "version": "1.0.0",
+  "description": "OpenClaw GenPark Video Creator - SMPTE timecode drop-frame/non-drop-frame converter, Ken Burns cubic Bezier camera pan/zoom trajectory solver, and multi-track EDL timeline reconciler with zero dependencies.",
+  "tools": [
+    "convert_smpte_timecode",
+    "calculate_ken_burns_trajectory",
+    "reconcile_edl_timeline"
+  ]
+}
