@@ -53,8 +53,7 @@ def reconcile_edl_timeline(
     return json.dumps(res, indent=2)
 
 def main():
-    print("Testing Video Creator:")
-    print(convert_smpte_timecode("00:01:00;00", 29.97, True))
+    mcp.run(transport="stdio")
 
 if __name__ == "__main__":
     main()
